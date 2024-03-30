@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Ayush-Vish/npm-portfolio/issues"
   },
-  "homepage": "https://github.com/Ayush-Vish/npm-portfolio#readme"
+  "homepage": "https://github.com/Ayush-Vish/npm-portfolio#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  }
 }
