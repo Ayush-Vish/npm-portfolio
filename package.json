@@ -1,0 +1,19 @@
+{
+  "name": "ayush-vish",
+  "version": "1.0.0",
+  "description": "This is Ayush portdolio of npm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayush-Vish/npm-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayush-Vish/npm-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ayush-Vish/npm-portfolio#readme"
+}
