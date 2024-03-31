@@ -1,0 +1,24 @@
+{
+    "Education" : [
+        "Student at Indian Institute of Information Technology Gwalior",
+        "Intermediate from Pt. Lajja Shankar Jha Model School Jabalpur"
+    ], 
+    "Skills" :[
+        "Languages: C, C++, HTML, CSS, JavaScript, SQL, Typescript",
+        "Frameworks: React, Node.js, Express.js, Next.js, Bootstrap ,Tailwind CSS",
+        "Database: MongoDB, PostgreSQL",
+        "Tools: Git, VS Code, AWS, Linux, Docker, Kubernetes, Jenkins, Nginx"
+
+    ], 
+    "Projects" : [
+
+    ], 
+    "Experience" : [
+        "Full Stack Developer Intern at DevTown", 
+        "Winner Quine Track at HackOdisha 2023"
+    ],
+    "Contact":[
+        "Email : ayushvish6555@gmail.com" ,
+        "LinkedIn : https://www.linkedin.com/in/ayush-vishwakarma-1b1b3b1b3/"
+    ]
+}
