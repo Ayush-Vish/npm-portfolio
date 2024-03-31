@@ -1,11 +1,9 @@
 
-const chalk = require("chalk");
-const boxen = require("boxen");
-
-
+import chalk from "chalk";
+import boxen from "boxen";
 const cardData = {
-  name: chalk.bold("      👋 Hello I am Ayush Vishwakarma\n  A Full Stack Developer\n DSA Enthusiast "),
-  work: `${chalk.white("Full Stack Developer at ")} ${chalk.bold("DevTown")}`,
+  name: chalk.bold("            👋 Hello I am Ayush Vishwakarma\n                  A Full Stack Developer\n                      DSA Enthusiast "),
+  work: `${chalk.white("Full Stack Developer at")} ${chalk.bold("DevTown")}`,
   github: chalk.gray("https://github.com/") + chalk.green("Ayush-Vish"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("ayush-vishwakarma1"),
   npx: chalk.red("npx") + " " + chalk.white("ayush-vish"),
@@ -15,13 +13,14 @@ const cardData = {
   labelCard: chalk.white.bold("       Card:"),
 };
 
-exports.Card = boxen(
+const Card  = boxen(
   [
     `${cardData.name}`,
     ``,
     `${cardData.labelWork}  ${cardData.work}`,
     ``,
-    `${cardData.labelGitHub}  ${cardData.A}`,
+    `${cardData.labelGitHub}  ${cardData.github}`,
+    ``,
     `${cardData.labelLinkedIn}  ${cardData.linkedin}`,
     ``,
     `${cardData.labelCard}  ${cardData.npx}`,
@@ -35,3 +34,7 @@ exports.Card = boxen(
     borderColor: "green",
   }
 );
+
+export {
+    Card
+}

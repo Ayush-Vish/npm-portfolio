@@ -11,7 +11,9 @@
 
     ], 
     "Projects" : [
-
+        "Communet - A Bulk Email extractor and sender built on Microservices Architecture, MERN Stack", 
+        "LinkShort - A MERN Stack URL Shortener", 
+        "Learning Management System "
     ], 
     "Experience" : [
         "Full Stack Developer Intern at DevTown", 

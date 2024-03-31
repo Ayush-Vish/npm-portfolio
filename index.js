@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 "use strict";
 
-const inquirer = require("inquirer");
-const chalk = require("chalk");
-const data = require("./portfolio.json");
-const {Card} = require("./card.js");
+import inquirer  from "inquirer"
+import chalk from "chalk";
+import { type } from "os";
+import { json } from "stream/consumers";
+import data from "./portfolio.json" assert  {type:"json"}; 
+
+import { Card } from "./card.js";
+
+
 
 // add response color
 const response = chalk.white;
@@ -57,7 +62,7 @@ function handleResume() {
       if (choice.exitBack == "Back") {
         handleResume();
       } else {
-        console.log("Thanks for stopping by 😇");
+        console.log("Bye Bye 🧏‍♂️🤫");
         return;
       }
     });
