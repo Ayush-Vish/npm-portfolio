@@ -12,7 +12,7 @@ import { Card } from "./card.js";
 
 
 // add response color
-const response = chalk.white;
+const response = chalk.magenta;
 
 const resumeOptions = {
   type: "list",

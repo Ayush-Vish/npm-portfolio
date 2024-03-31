@@ -1,6 +1,6 @@
 {
   "name": "ayush-vish",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "This is Ayush portdolio of npm ",
   "main": "./index.js",
   "type": "module",

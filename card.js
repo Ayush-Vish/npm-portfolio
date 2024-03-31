@@ -10,7 +10,7 @@ const cardData = {
   labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-  labelCard: chalk.white.bold("       Card:"),
+  labelCard: chalk.white.bold("        NPX:"),
 };
 
 const Card  = boxen(
