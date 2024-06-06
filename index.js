@@ -1,11 +1,12 @@
-#!/usr/bin/env node
-"use strict";
+
 
 import inquirer  from "inquirer"
 import chalk from "chalk";
 import { type } from "os";
 import { json } from "stream/consumers";
-import data from "./portfolio.json" assert  {type:"json"}; 
+import fs from 'fs';
+
+const data = JSON.parse(fs.readFileSync('./portfolio.json', 'utf8'));
 
 import { Card } from "./card.js";
 
