@@ -1,6 +1,6 @@
+import chalk from 'chalk';
+import boxen from 'boxen';
 
-import chalk from "chalk";
-import boxen from "boxen";
 const cardData = {
   name: chalk.bold("            👋 Hello I am Ayush Vishwakarma\n                  A Full Stack Developer\n                      DSA Enthusiast "),
   work: `${chalk.white("Full Stack Developer at")} ${chalk.bold("DevTown")}`,

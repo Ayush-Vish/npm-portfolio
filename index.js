@@ -1,16 +1,17 @@
+import inquirer from 'inquirer'; 
+import chalk from 'chalk';
+import fs from 'fs/promises';
+import {Card} from './card.js';
 
+import fs from 'fs/promises';
 
-import inquirer  from "inquirer"
-import chalk from "chalk";
-import { type } from "os";
-import { json } from "stream/consumers";
-import fs from 'fs';
-
-const data = JSON.parse(fs.readFileSync('./portfolio.json', 'utf8'));
-
-import { Card } from "./card.js";
-
-
+let data;
+fs.readFile('./portfolio.json', 'utf8')
+  .then(fileContent => {
+    data = JSON.parse(fileContent);
+    // rest of your code that uses data
+  })
+  .catch(err => console.error(err));
 
 // add response color
 const response = chalk.magenta;
